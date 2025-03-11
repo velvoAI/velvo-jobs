@@ -58,7 +58,7 @@ export function NavigationMenuLeft() {
       <NavigationMenuList>
       <div className=" px-3 m-3 w-[200px]">
         <Link href={"/"}>
-        <img src="/logo.png" alt="logo" className=" cursor-pointer"/>
+        <img src="/logo.png" alt="logo" className="cursor-pointer dark:invert" />
         </Link>
         </div>
         <NavigationMenuItem>
