@@ -56,9 +56,10 @@ export function NavigationMenuLeft() {
   return (
     <NavigationMenu>
       <NavigationMenuList>
-        <div className=" px-3 m-3">
-        <p>Logo</p>
-        {/*  todo:add logo here  */}
+      <div className=" px-3 m-3 w-[200px]">
+        <Link href={"/"}>
+        <img src="/logo.png" alt="logo" className=" cursor-pointer"/>
+        </Link>
         </div>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
