@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { NavigationMenuLeft } from "./Navigation-menu";
+import { NavigationMenuLeft } from "./Navigation-menuleft";
 import { ModeToggle } from "./themeToggle";
 
 export default function NavBar() {
@@ -14,7 +14,7 @@ export default function NavBar() {
        <h1>Login </h1>
        </Link> 
       </div>
-       <div className=" font-medium border-2 border-gray-800 rounded-md px-4 py-2 hover:bg-violet-100 cursor-pointer">
+       <div className=" font-medium border-1 border-gray-300 rounded-md px-4 py-2 hover:bg-violet- cursor-pointer">
        <Link href="/signup">
        <h1 >Sign up </h1>
         </Link>
