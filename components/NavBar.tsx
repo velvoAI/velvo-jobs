@@ -9,11 +9,16 @@ export default function NavBar() {
         <NavigationMenuLeft />
       </div>
       <div className="flex items-center gap-8 px-2">
+      <div>
       <Link href="/login">
        <h1>Login </h1>
-        </Link> <Link href="/signup">
-       <h1>Sign up </h1>
+       </Link> 
+      </div>
+       <div className=" font-medium border-2 border-gray-800 rounded-md px-4 py-2 hover:bg-violet-100 cursor-pointer">
+       <Link href="/signup">
+       <h1 >Sign up </h1>
         </Link>
+       </div>
         
         <ModeToggle />
       </div>
