@@ -1,4 +1,4 @@
-# Velvo Jobs
+# Velvojob
 
 ## Setup Locally
 
@@ -15,8 +15,8 @@ Follow these steps to set up the project on your local machine.
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/yourusername/velvo-jobs.git
-    cd velvo-jobs
+    git clone https://github.com/yourusername/velvo-job.git
+    cd velvo-job
     ```
 
 2. **Install dependencies:**
